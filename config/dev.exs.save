@@ -1,9 +1,10 @@
-import Config
+X
+ximport Config
 
 # Configure your database
 config :phoenix_finflow, PhoenixFinflow.Repo,
   username: "postgres",
-  password: "root",
+  password: "postgres",
   hostname: "localhost",
   database: "phoenix_finflow_dev",
   stacktrace: true,
